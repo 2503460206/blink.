@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLACKPINK | 官方粉丝博客</title>
+    <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo"><i class="fas fa-crown"></i>BLACK<span>PINK</span></a>
+                <ul class="nav-links">
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#members">成员</a></li>
+                    <li><a href="#gallery">照片墙</a></li>
+                    <li><a href="#news">最新动态</a></li>
+                    <li><a href="#music">音乐作品</a></li>
+                    <li><a href="#game">粉丝小游戏</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 英雄区域 -->
+    <section class="hero">
+        <div class="container">
+            <h1>BLACKPINK IN YOUR AREA</h1>
+            <p>欢迎来到BLACKPINK官方粉丝博客！在这里获取最新资讯、音乐作品和成员动态。</p>
+            <a href="#members" class="btn">了解成员</a>
+        </div>
+    </section>
+
+    <!-- 成员介绍 -->
+    <section id="members" class="container">
+        <div class="section-title">
+            <h2>成员介绍</h2>
+        </div>
+        <div class="members">
+            <div class="member-card">
+                <img src="https://c-ssl.duitang.com/uploads/blog/202202/03/20220203112552_2e083.jpeg" alt="JISOO" class="member-img">
+                <div class="member-info">
+                    <h3>JISOO</h3>
+                    <p class="member-role">主唱、视觉担当</p>
+                    <p>出生于1995年1月3日</p>
+                </div>
+            </div>
+            <div class="member-card">
+                <img src="https://x0.ifengimg.com/ucms/2022_44/5D06789F92DCEA1F8ECE84F143748BD972E19107_size269_w1600_h2133.jpg" alt="JENNIE" class="member-img">
+                <div class="member-info">
+                    <h3>JENNIE</h3>
+                    <p class="member-role">主Rapper、主唱</p>
+                    <p>出生于1996年1月16日</p>
+                </div>
+            </div>
+            <div class="member-card">
+                <img src="https://c-ssl.duitang.com/uploads/blog/202202/07/20220207112642_557ec.jpg" alt="ROSÉ" class="member-img">
+                <div class="member-info">
+                    <h3>ROSÉ</h3>
+                    <p class="member-role">主唱、领舞</p>
+                    <p>出生于1997年2月11日</p>
+                </div>
+            </div>
+            <div class="member-card">
+                <img src="https://pic4.zhimg.com/v2-4a16db243194fd0f483d50c378a1b507_r.jpg" alt="LISA" class="member-img">
+                <div class="member-info">
+                    <h3>LISA</h3>
+                    <p class="member-role">主舞、副Rapper</p>
+                    <p>出生于1997年3月27日</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 照片墙 -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-title">
+                <h2>照片墙</h2>
+            </div>
+            <div class="gallery-filters">
+                <button class="filter-btn" data-filter="group">团体照</button>
+                <button class="filter-btn" data-filter="jisoo">JISOO</button>
+                <button class="filter-btn" data-filter="jennie">JENNIE</button>
+                <button class="filter-btn" data-filter="rose">ROSÉ</button>
+                <button class="filter-btn" data-filter="lisa">LISA</button>
+                <button class="filter-btn" data-filter="performance">舞台表演</button>
+                <button class="filter-btn active" data-filter="all">全部</button>
+            </div>
+            <div class="gallery-grid">
+                <!-- 团体照 - 6张 -->
+                <div class="gallery-item" data-category="group">
+                    <img src="https://ts1.tc.mm.bing.net/th/id/R-C.b4c3508afea09c22c5dbbcbc141fc46b?rik=PhItRuAJMtKPGw&riu=http%3a%2f%2fstatic1.keepcdn.com%2fpicture%2f2020%2f05%2f14%2f22%2f12%2f3353e3a94e0a7cc05b56a42ffe6e4359a661f28c_1080x810.jpg&ehk=wxJutJ%2fGNlsWrZEOjUQPQrdg1GEDe072c6OBDHby518%3d&risl=&pid=ImgRaw&r=0" alt="BLACKPINK团体照">
+                    <div class="gallery-overlay">
+                        <h4>BLACKPINK团体照</h4>
+                        <p>2023年官方宣传照</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="group">
+                    <img src="https://media.vogue.com.tw/photos/5ebcba3bf9d3ef21ac84e818/master/w_1600%2Cc_limit/GettyImages-1137222208.jpg" alt="BLACKPINK">
+                    <div class="gallery-overlay">
+                        <h4>BLACKPINK</h4>
+                        <p>音乐节后台</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="group">
+                    <img src="https://ts1.tc.mm.bing.net/th/id/R-C.d383349d6a9d35c1a516cd2dbb970e00?rik=mq9cHEXk0nkFiA&riu=http%3a%2f%2fi0.hdslb.com%2fbfs%2farchive%2f73e2b9ed0cfa9bb5e08200bbe7aa83626d322679.jpg&ehk=oaeJK9%2f7Q7NvqbcNKrTkODU1EhOdvpyvcgoE%2fetyQM8%3d&risl=&pid=ImgRaw&r=0" alt="BLACKPINK团体">
+                    <div class="gallery-overlay">
+                        <h4>BLACKPINK团体</h4>
+                        <p>专辑宣传照</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="group">
+                    <img src="https://ts1.tc.mm.bing.net/th/id/R-C.6cd66657e536064e009a8619657ac7d0?rik=ZhVbYEZwT4kqSg&riu=http%3a%2f%2fi2.hdslb.com%2fbfs%2farchive%2fea4254a64bd88b93de6304fe329930336528c9ea.jpg&ehk=tuCAPB2jz9rJe59QyRVvxN2IaAcnxDjs9kosQW9Udww%3d&risl=&pid=ImgRaw&r=0" alt="BLACKPINK四人">
+                    <div class="gallery-overlay">
+                        <h4>BLACKPINK四人</h4>
+                        <p>时尚画报拍摄</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="group">
+                    <img src="https://ts4.tc.mm.bing.net/th/id/OIP-C.cGr7-9VE6QK-VTwtXdCpiAAAAA?pid=ImgDet&w=428&h=570&rs=1&o=7&rm=3" alt="BLACKPINK红毯">
+                    <div class="gallery-overlay">
+                        <h4>BLACKPINK红毯</h4>
+                        <p>颁奖典礼造型</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="group">
+                    <img src="https://c-ssl.duitang.com/uploads/blog/202111/21/20211121115331_2b6d6.jpeg" alt="BLACKPINK合照">
+                    <div class="gallery-overlay">
+                        <h4>BLACKPINK合照</h4>
+                        <p>幕后花絮</p>
+                    </div>
+                </div>
+                
+                <!-- JISOO - 6张 -->
+                <div class="gallery-item" data-category="jisoo">
+                    <img src="https://n.sinaimg.cn/sinakd10122/337/w530h607/20201104/cae2-kcieywa4278737.jpg" alt="JISOO">
+                    <div class="gallery-overlay">
+                        <h4>JISOO</h4>
+                        <p>个人写真</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="jisoo">
+                    <img src="https://c-ssl.duitang.com/uploads/blog/202203/23/20220323083531_4c255.jpg" alt="JISOO写真">
+                    <div class="gallery-overlay">
+                        <h4>JISOO写真</h4>
+                        <p>时尚杂志拍摄</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="jisoo">
+                    <img src="https://c-ssl.duitang.com/uploads/blog/202204/16/20220416010920_a017f.jpeg" alt="JISOO舞台">
+                    <div class="gallery-overlay">
+                        <h4>JISOO舞台</h4>
+                        <p>演唱会表演</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="jisoo">
+                    <img src="https://ts1.tc.mm.bing.net/th/id/R-C.7c7c734825d9f449478ae55f2e30be32?rik=fX51bjrPfYZKew&riu=http%3a%2f%2fn.sinaimg.cn%2fsinakd20230202ac%2f784%2fw1022h1362%2f20230202%2f2a8f-0f9212205c60ed794da481a992385686.jpg&ehk=C37rU7BgwlC8xgVFR6qkzdP67Rc8yecI3gCzLlHAW8A%3d&risl=&pid=ImgRaw&r=0" alt="JISOO日常">
+                    <div class="gallery-overlay">
+                        <h4>JISOO日常</h4>
+                        <p>幕后花絮</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="jisoo">
+                    <img src="https://c-ssl.duitang.com/uploads/blog/202105/26/20210526085426_8472f.jpeg" alt="JISOO画报">
+                    <div class="gallery-overlay">
+                        <h4>JISOO画报</h4>
+                        <p>时尚大片</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="jisoo">
+                    <img src="https://ts3.tc.mm.bing.net/th/id/OIP-C.gc5qWFQ2p5rpAEUIrM3xvAHaJQ?rs=1&pid=ImgDetMain&o=7&rm=3" alt="JISOO自拍">
+                    <div class="gallery-overlay">
+                        <h4>JISOO自拍</h4>
+                        <p>社交媒体更新</p>
+                    </div>
+                </div>
+                
+                <!-- JENNIE - 6张 -->
+                <div class="gallery-item" data-category="jennie">
+                    <img src="https://k.sinaimg.cn/n/ent/4_img/upload/d0788465/681/w1024h1257/20230117/83fe-0c5688a027c8af4ef7927354e4a84fda.jpg/w640slw.jpg" alt="JENNIE">
+                    <div class="gallery-overlay">
+                        <h4>JENNIE</h4>
+                        <p>时尚画报</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="jennie">
+                    <img src="https://c-ssl.dtstatic.com/uploads/blog/202212/17/20221217201709_ce3d1.thumb.1000_0.jpg" alt="JENNIE写真">
+                    <div class="gallery-overlay">
+                        <h4>JENNIE写真</h4>
+                        <p>个人宣传照</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="jennie">
+                    <img src="https://kpop-france.com/wp-content/uploads/2025/09/Like-JENNIE.jpg" alt="JENNIE舞台">
+                    <div class="gallery-overlay">
+                        <h4>JENNIE舞台</h4>
+                        <p>SOLO表演</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="jennie">
+                    <img src="https://joy.online.sh.cn/images_quote/attachement/jpg/site1/20221205/IMG0025116ac9cf62022949481.jpg" alt="JENNIE日常">
+                    <div class="gallery-overlay">
+                        <h4>JENNIE日常</h4>
+                        <p>幕后花絮</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="jennie">
+                    <img src="https://blackpink.cafe/wp-content/uploads/2024/04/blackpink-240416-jennie-vogue-korea-may-2024-10-819x1024.jpg" alt="JENNIE画报">
+                    <div class="gallery-overlay">
+                        <h4>JENNIE画报</h4>
+                        <p>时尚大片</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="jennie">
+                    <img src="https://c-ssl.duitang.com/uploads/blog/202110/17/20211017171459_f7d82.jpeg" alt="JENNIE自拍">
+                    <div class="gallery-overlay">
+                        <h4>JENNIE自拍</h4>
+                        <p>社交媒体更新</p>
+                    </div>
+                </div>
+                
+                <!-- ROSÉ - 6张 -->
+                <div class="gallery-item" data-category="rose">
+                    <img src="https://c-ssl.dtstatic.com/uploads/blog/202008/25/20200825135554_miSdT.thumb.1000_0.jpeg" alt="ROSÉ">
+                    <div class="gallery-overlay">
+                        <h4>ROSÉ</h4>
+                        <p>个人写真</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="rose">
+                    <img src="https://ts1.tc.mm.bing.net/th/id/OIP-C.rvroRBfggjsuDhdnTykhpAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" alt="ROSÉ写真">
+                    <div class="gallery-overlay">
+                        <h4>ROSÉ写真</h4>
+                        <p>专辑宣传照</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="rose">
+                    <img src="https://c-ssl.duitang.com/uploads/blog/202210/28/20221028194130_88da6.jpg" alt="ROSÉ舞台">
+                    <div class="gallery-overlay">
+                        <h4>ROSÉ舞台</h4>
+                        <p>SOLO表演</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="rose">
+                    <img src="https://c-ssl.duitang.com/uploads/blog/202104/11/20210411175012_75859.jpg" alt="ROSÉ日常">
+                    <div class="gallery-overlay">
+                        <h4>ROSÉ日常</h4>
+                        <p>幕后花絮</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="rose">
+                    <img src="https://c-ssl.dtstatic.com/uploads/blog/202105/20/20210520235355_6c00f.thumb.1000_0.jpg" alt="ROSÉ画报">
+                    <div class="gallery-overlay">
+                        <h4>ROSÉ画报</h4>
+                        <p>时尚大片</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="rose">
+                    <img src="https://c-ssl.duitang.com/uploads/blog/202203/21/20220321222626_44e14.jpg" alt="ROSÉ自拍">
+                    <div class="gallery-overlay">
+                        <h4>ROSÉ自拍</h4>
+                        <p>社交媒体更新</p>
+                    </div>
+                </div>
+                
+                <!-- LISA - 6张 -->
+                <div class="gallery-item" data-category="lisa">
+                    <img src="https://ts4.tc.mm.bing.net/th/id/OIP-C.QsjM9CHyvM1rpYRtGYwS3AHaJQ?rs=1&pid=ImgDetMain&o=7&rm=3" alt="LISA">
+                    <div class="gallery-overlay">
+                        <h4>LISA</h4>
+                        <p>个人写真</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="lisa">
+                    <img src="https://c-ssl.duitang.com/uploads/item/202003/12/20200312111727_mftkj.jpg" alt="LISA写真">
+                    <div class="gallery-overlay">
+                        <h4>LISA写真</h4>
+                        <p>时尚杂志拍摄</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="lisa">
+                    <img src="https://pic2.zhimg.com/v2-1e8a0bc29a14498c1353d38c068c3613_r.jpg" alt="LISA舞台">
+                    <div class="gallery-overlay">
+                        <h4>LISA舞台</h4>
+                        <p>舞蹈表演</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="lisa">
+                    <img src="https://c-ssl.duitang.com/uploads/item/202002/09/20200209154701_ikdid.thumb.1000_0.jpg" alt="LISA日常">
+                    <div class="gallery-overlay">
+                        <h4>LISA日常</h4>
+                        <p>幕后花絮</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="lisa">
+                    <img src="https://c-ssl.duitang.com/uploads/item/201907/28/20190728130159_lxuqq.jpg" alt="LISA画报">
+                    <div class="gallery-overlay">
+                        <h4>LISA画报</h4>
+                        <p>时尚大片</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="lisa">
+                    <img src="https://c-ssl.dtstatic.com/uploads/blog/202207/03/20220703174249_66b74.thumb.400_0.png" alt="LISA自拍">
+                    <div class="gallery-overlay">
+                        <h4>LISA自拍</h4>
+                        <p>社交媒体更新</p>
+                    </div>
+                </div>
+                
+                <!-- 舞台表演 - 6张 -->
+                <div class="gallery-item" data-category="performance">
+                    <img src="https://ts1.tc.mm.bing.net/th/id/R-C.285c71fe5e9901e8121baf18e5655a06?rik=e8GSQdPS0K6j%2bQ&riu=http%3a%2f%2ffiles.nowre.com%2farticles%2f2021%2f06%2ftmp_qw4I9K_798089590e1b0e3d_GettyImages-1143890227.jpeg&ehk=pIYkCByKQrvKN454rk4CO1ztf3Fw8N7GQZyC%2feOLYc8%3d&risl=&pid=ImgRaw&r=0" alt="科切拉音乐节">
+                    <div class="gallery-overlay">
+                        <h4>科切拉音乐节</h4>
+                        <p>历史性表演</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="performance">
+                    <img src="https://c-ssl.duitang.com/uploads/item/202004/01/20200401164744_2JFEF.jpeg" alt="世界巡回演唱会">
+                    <div class="gallery-overlay">
+                        <h4>世界巡回演唱会</h4>
+                        <p>BORN PINK Tour</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="performance">
+                    <img src="https://www.gaobei.com/upload/10001/article/2022_08/23000526_x38o34_b.jpg" alt="音乐节目">
+                    <div class="gallery-overlay">
+                        <h4>音乐节目</h4>
+                        <p>打歌舞台</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="performance">
+                    <img src="https://c-ssl.dtstatic.com/uploads/blog/202212/07/20221207205958_cc025.thumb.1000_0.png" alt="颁奖典礼">
+                    <div class="gallery-overlay">
+                        <h4>颁奖典礼</h4>
+                        <p>MAMA表演</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="performance">
+                    <img src="https://ts1.tc.mm.bing.net/th/id/R-C.670aa20b1e31dc085c903229845f006f?rik=C%2fKRVLMnC8SH5g&riu=http%3a%2f%2fc-ssl.duitang.com%2fuploads%2fitem%2f202004%2f01%2f20200401164744_kNSfs.jpeg&ehk=q%2b7pyNcSFzcehpxShgG6Mg4E6ODhBS1%2f1fiGmeAETuk%3d&risl=&pid=ImgRaw&r=0" alt="粉丝见面会">
+                    <div class="gallery-overlay">
+                        <h4>粉丝见面会</h4>
+                        <p>特别舞台表演</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="performance">
+                    <img src="https://c-ssl.duitang.com/uploads/blog/202009/18/20200918064601_a867e.jpg" alt="音乐节">
+                    <div class="gallery-overlay">
+                        <h4>音乐节</h4>
+                        <p>Summer Sonic表演</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 最新动态 -->
+    <section id="news" class="news">
+        <div class="container">
+            <div class="section-title">
+                <h2>最新动态</h2>
+            </div>
+            <div class="news-grid">
+                <div class="news-card">
+                    <img src="https://res.klook.com/image/upload/v1740019835/rxv8s644ggzvufjyahlr.jpg" alt="演唱会" class="news-img">
+                    <div class="news-content">
+                        <h3>BLACKPINK全球范围内进行"DEADLINE"世界巡回演唱会</h3>
+                        <p class="date"><i class="far fa-calendar"></i> 2025年7月</p>
+                        <p>此次巡演在韩国高阳开始，计划在16个城市举行31场体育场级别的演出，北美、欧洲及亚洲部分场次已结束</p>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <img src="https://ts1.tc.mm.bing.net/th/id/OIP-C.Ks04SlRNUO-KCQSEUBCw4QHaE7?rs=1&pid=ImgDetMain&o=7&rm=3" alt="音乐节" class="news-img">
+                    <div class="news-content">
+                        <h3>出道九周年</h3>
+                        <p class="date"><i class="far fa-calendar"></i> 2025年8月</p>
+                        <p>BLACKPINK庆祝了出道九周年。其所属的YG娱乐公司也在中国多个城市举办了以"DEADLINE"巡演为主题的快闪店活动</p>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <img src="https://media.pitchfork.com/photos/68708c75d5fe4febbcb87524/16:9/w_1280,c_limit/Blackpink.jpeg" alt="新专辑" class="news-img">
+                    <div class="news-content">
+                        <h3>最新团体歌曲</h3>
+                        <p class="date"><i class="far fa-calendar"></i> 2025年11月</p>
+                        <p>新单曲《JUMP》被描述为一次"大胆的音乐转变"，标志着组合音乐风格的演进</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 音乐作品 -->
+    <section id="music" class="music">
+        <div class="container">
+            <div class="section-title">
+                <h2>音乐作品</h2>
+            </div>
+            <div class="albums hidden" id="albumsContainer">
+                <div class="album">
+                    <img src="https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/94/b6/96/94b696c4-63be-8196-cae6-1f81be0a4cbe/22UM1IM01017.rgb.jpg/1200x1200bf-60.jpg" alt="BORN PINK" class="album-cover">
+                    <h4>BORN PINK</h4>
+                    <p class="album-year">2022</p>
+                    <p class="album-tracks">主打曲: Pink Venom, Shut Down</p>
+                </div>
+                <div class="album">
+                    <img src="https://ts4.tc.mm.bing.net/th/id/OIP-C.KgONfBHBvuiHIFWaNFk5hgHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" alt="THE ALBUM" class="album-cover">
+                    <h4>THE ALBUM</h4>
+                    <p class="album-year">2020</p>
+                    <p class="album-tracks">主打曲: How You Like That, Lovesick Girls</p>
+                </div>
+                <div class="album">
+                    <img src="https://ts3.tc.mm.bing.net/th/id/OIP-C.bonLvvne-_-qIvVjXxSfCgHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" alt="KILL THIS LOVE" class="album-cover">
+                    <h4>KILL THIS LOVE</h4>
+                    <p class="album-year">2019</p>
+                    <p class="album-tracks">主打曲: Kill This Love, Don't Know What To Do</p>
+                </div>
+                <div class="album">
+                    <img src="https://ts4.tc.mm.bing.net/th/id/OIP-C.HCPQJjN5s4_gJFdrD_9ICQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" alt="SQUARE UP" class="album-cover">
+                    <h4>SQUARE UP</h4>
+                    <p class="album-year">2018</p>
+                    <p class="album-tracks">主打曲: DDU-DU DDU-DU, Forever Young</p>
+                </div>
+                <div class="album hidden">
+                    <img src="https://y.gtimg.cn/music/photo_new/T062M000001WHkcR3PoSgR.jpg?max_age=0" alt="SQUARE TWO" class="album-cover">
+                    <h4>SQUARE TWO</h4>
+                    <p class="album-year">2016</p>
+                    <p class="album-tracks">主打曲: Playing With Fire, Stay</p>
+                </div>
+                <div class="album hidden">
+                    <img src="https://c-ssl.dtstatic.com/uploads/item/202004/07/20200407105313_sgqhx.thumb.400_0.jpg" alt="SQUARE ONE" class="album-cover">
+                    <h4>SQUARE ONE</h4>
+                    <p class="album-year">2016</p>
+                    <p class="album-tracks">主打曲: Whistle, Boombayah</p>
+                </div>
+                <div class="album hidden">
+                    <img src="https://y.gtimg.cn/music/photo_new/T062M000001VGuSx1ZFJUi.jpg?max_age=0" alt="THE SHOW" class="album-cover">
+                    <h4>THE SHOW</h4>
+                    <p class="album-year">2021</p>
+                    <p class="album-tracks">线上演唱会实况专辑</p>
+                </div>
+                <div class="album hidden">
+                    <img src="https://y.gtimg.cn/music/photo_new/T062M000004NnM7c2WVnjr.jpg?max_age=0" alt="IN YOUR AREA" class="album-cover">
+                    <h4>IN YOUR AREA</h4>
+                    <p class="album-year">2018</p>
+                    <p class="album-tracks">日本出道专辑</p>
+                </div>
+            </div>
+            <div style="text-align: center;">
+                <button id="showAllBtn" class="btn">查看全部作品</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLACKPINK粉丝知识问答小游戏 -->
+    <section id="game" class="game-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>BLINK知识大挑战</h2>
+                <p class="game-subtitle">测试你对BLACKPINK的了解程度！</p>
+            </div>
+            
+            <div class="game-container">
+                <!-- 游戏开始界面 -->
+                <div class="game-start" id="gameStart">
+                    <div class="game-intro">
+                        <i class="fas fa-gamepad game-icon"></i>
+                        <h3>BLACKPINK粉丝知识问答</h3>
+                        <p>你是真正的BLINK吗？挑战10个关于BLACKPINK的问题，看看你能得多少分！</p>
+                        <div class="game-rules">
+                            <h4><i class="fas fa-info-circle"></i> 游戏规则</h4>
+                            <ul>
+                                <li><i class="fas fa-star"></i> 共10道选择题</li>
+                                <li><i class="fas fa-clock"></i> 每题20秒作答时间</li>
+                                <li><i class="fas fa-check-circle"></i> 答对得10分，答错不得分</li>
+                                <li><i class="fas fa-trophy"></i> 最终根据得分获得称号</li>
+                            </ul>
+                        </div>
+                        <button class="btn game-start-btn" id="startGameBtn">
+                            <i class="fas fa-play"></i> 开始挑战
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- 游戏进行界面 -->
+                <div class="game-play" id="gamePlay" style="display: none;">
+                    <div class="game-header">
+                        <div class="game-stats">
+                            <div class="stat">
+                                <span class="stat-label">问题</span>
+                                <span class="stat-value" id="currentQuestion">1/10</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">得分</span>
+                                <span class="stat-value" id="currentScore">0</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">时间</span>
+                                <span class="stat-value" id="timeLeft">20</span>
+                            </div>
+                        </div>
+                        
+                        <div class="progress-container">
+                            <div class="progress-bar" id="progressBar"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="game-question" id="gameQuestion">
+                        <h3 id="questionText">加载问题中...</h3>
+                    </div>
+                    
+                    <div class="game-options" id="gameOptions">
+                        <!-- 选项将通过JS动态生成 -->
+                    </div>
+                    
+                    <div class="game-feedback" id="gameFeedback" style="display: none;">
+                        <div class="feedback-content">
+                            <h4 id="feedbackTitle"></h4>
+                            <p id="feedbackText"></p>
+                            <button class="btn" id="nextQuestionBtn">下一题 <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 游戏结束界面 -->
+                <div class="game-end" id="gameEnd" style="display: none;">
+                    <div class="game-result">
+                        <div class="result-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <h3>挑战完成！</h3>
+                        <div class="result-score">
+                            <p>你的得分是</p>
+                            <h2 id="finalScore">0</h2>
+                            <p>分</p>
+                        </div>
+                        
+                        <div class="result-title" id="resultTitle">
+                            <!-- 称号将通过JS动态生成 -->
+                        </div>
+                        
+                        <div class="result-message" id="resultMessage">
+                            <!-- 评价将通过JS动态生成 -->
+                        </div>
+                        
+                        <div class="result-actions">
+                            <button class="btn" id="restartGameBtn">
+                                <i class="fas fa-redo"></i> 重新挑战
+                            </button>
+                            <button class="btn btn-secondary" id="shareGameBtn">
+                                <i class="fas fa-share-alt"></i> 分享结果
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>关于我们</h3>
+                    <p>BLACKPINK官方粉丝博客，提供最新资讯、音乐作品和成员动态。</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>快速链接</h3>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> 首页</a></li>
+                        <li><a href="#members"><i class="fas fa-chevron-right"></i> 成员介绍</a></li>
+                        <li><a href="#gallery"><i class="fas fa-chevron-right"></i> 照片墙</a></li>
+                        <li><a href="#news"><i class="fas fa-chevron-right"></i> 最新动态</a></li>
+                        <li><a href="#music"><i class="fas fa-chevron-right"></i> 音乐作品</a></li>
+                        <li><a href="#game"><i class="fas fa-chevron-right"></i> 粉丝小游戏</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>联系我们</h3>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-envelope"></i> contact@blackpinkblog.com</a></li>
+                        <li><a href="#"><i class="fas fa-phone"></i> +82 2-1234-5678</a></li>
+                        <li><a href="#"><i class="fas fa-map-marker-alt"></i> 首尔特别市江南区</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 BLACKPINK官方粉丝博客. 保留所有权利.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
