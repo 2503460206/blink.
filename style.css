@@ -112,7 +112,7 @@ header {
 
 /* 英雄区域样式 */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://ts4.tc.mm.bing.net/th/id/OIP-C.dMV_Ifuo5ya-JUr-WTN6CAHaE3?rs=1&pid=ImgDetMain&o=7&rm=3');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://c-ssl.duitang.com/uploads/blog/202101/25/20210125161355_847de.jpeg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -1046,6 +1046,7 @@ footer {
     }
 
 }
+
 
 
 
