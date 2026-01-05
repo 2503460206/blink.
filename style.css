@@ -112,7 +112,7 @@ header {
 
 /* 英雄区域样式 */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://c-ssl.duitang.com/uploads/blog/202101/25/20210125161355_847de.jpeg');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://ts1.tc.mm.bing.net/th/id/R-C.5ce2d0c692abefc98a38b2d703ee7161?rik=2%2b9kXviUKXcwzw&riu=http%3a%2f%2fi1.hdslb.com%2fbfs%2farchive%2f189bde1fa1151da2191a4a8da1df0e6efa0953f5.jpg&ehk=AXGzUT5yv5dJF6nUlorxUGe%2bC0pwthBd9LA9VPI9hiw%3d&risl=&pid=ImgRaw&r=0');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -1046,6 +1046,7 @@ footer {
     }
 
 }
+
 
 
 
