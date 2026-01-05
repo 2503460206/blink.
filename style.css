@@ -112,7 +112,7 @@ header {
 
 /* 英雄区域样式 */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://ts3.tc.mm.bing.net/th/id/OIP-C.2XgFK3IQa_6-hi7Pa9ZKeAHaEo?rs=1&pid=ImgDetMain&o=7&rm=3');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://ts1.tc.mm.bing.net/th/id/OIP-C.vaHxCzzOWX-ntaNxHwiMCgHaEw?rs=1&pid=ImgDetMain&o=7&rm=3');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -1046,6 +1046,7 @@ footer {
     }
 
 }
+
 
 
 
